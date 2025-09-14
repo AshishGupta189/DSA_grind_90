@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int[] maxKDistinct(int[] nums, int k) {
         TreeSet<Integer> set = new TreeSet();
