@@ -1,7 +1,7 @@
 class SelectionSort{
     public static void main(String[] args) {
-        int arr[]={2,3,5,4,1};
-        int n=5;
+        int arr[]={6,3,5,4,1,2};
+        int n=6;
         for(int i=0;i<n-1;i++){
             int min=i;
             for(int j=i+1;j<n;j++){
